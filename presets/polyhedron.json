@@ -1,0 +1,61 @@
+{
+    "default_model": "lustify_endgame.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "polyhedron_all_sdxl-000004.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 4.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_3m_sde_gpu",
+    "default_scheduler": "exponential",
+    "default_performance": "Speed",
+    "default_prompt": "High quality, high resolution",
+    "default_prompt_negative": "anim, cartoon, ugly, unrealistic, bad quality, low resolution, watermark, deformed",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Sharp"
+    ],
+    "default_aspect_ratio": "1152*896",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "lustify_endgame.safetensors": "https://huggingface.co/xxxpo13/LUSTIFY_SDXL/resolve/main/lustifySDXLNSFW_endgame.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "polyhedron_all_sdxl-000004.safetensors": "https://civitai.com/api/download/models/148926?type=Model&format=SafeTensor"
+    },
+    "previous_default_models": [
+        "juggernautXL_v8Rundiffusion.safetensors",
+        "juggernautXL_version8Rundiffusion.safetensors",
+        "juggernautXL_version7Rundiffusion.safetensors",
+        "juggernautXL_v7Rundiffusion.safetensors",
+        "juggernautXL_version6Rundiffusion.safetensors",
+        "juggernautXL_v6Rundiffusion.safetensors"
+    ]
+}
